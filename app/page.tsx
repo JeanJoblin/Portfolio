@@ -1,22 +1,18 @@
 import Image from 'next/image'
 import PFP from './pfp'
+import Project from './proj'
+
+const swn = {
+  image: ,
+  title: 'Space Dock',
+  brief: 'A customisable ship generator for the table top role playing game Stars Without Number'
+}
 
 export default function Home() {
   return (
-    <main>
-      <div className=' pt-10 grid-rows-1 grid-cols-5 width-min-content grid justify-items-center bg-orange-500 h-40 items-end '>
-        <Image
-          className=" rounded-full "
-          src='/testpfp.jpg'
-          alt="a picture of me"
-          width={100}
-          height={100}
-        />
-        <h1 className='col-span-3 col-start-2 max-w-sm '>Nicholas Parish</h1>
-        <div className='col-span-1 col-start-5'>Hamburger Menu</div>
-      </div>
-
-    </main>
+    <>
+      <Project props={{}}
+    </>
   )
 }
 // export default function Home() {
