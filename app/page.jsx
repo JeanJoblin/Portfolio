@@ -1,17 +1,37 @@
-import Image from 'next/image'
-import PFP from './pfp'
-import Project from './proj'
 
-const swn = {
-  image: ,
-  title: 'Space Dock',
-  brief: 'A customisable ship generator for the table top role playing game Stars Without Number'
-}
+import Project from './proj.jsx'
 
 export default function Home() {
+
+  const swn = {
+    image: '/../public/testpfp.jpg',
+    title: 'Space Dock',
+    brief: 'A customisable ship generator for the table top role playing game Stars Without Number',
+    siteLink: 'https://spacedock.netlify.app/',
+    gitLink: 'https://github.com/JeanJoblin/spacedock',
+  }
+
+  const mrnh = {
+    image: '/../public/testpfp.jpg',
+    title: 'Museum of Reddit Natural History',
+    brief: 'Easily explore posts linked in Reddit comments',
+    gitLink: 'https://github.com/ShoshBeer/museum-of-reddit-natural-history',
+  }
+
+  function displayProjects(projectArray) {
+    return (
+      projectArray.map(proj => {
+        return (
+          <Project proj={proj} />
+        )
+      })
+    )
+  }
+
+  const projects = [swn, mrnh];
   return (
     <>
-      <Project props={{}}
+      {displayProjects(projects)}
     </>
   )
 }
