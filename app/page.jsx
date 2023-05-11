@@ -1,4 +1,5 @@
-
+import Header from './header'
+import Navbar from './navbar.jsx'
 import Project from './proj.jsx'
 
 export default function Home() {
@@ -31,6 +32,8 @@ export default function Home() {
   const projects = [swn, mrnh];
   return (
     <>
+      <Header />
+      <Navbar />
       {displayProjects(projects)}
     </>
   )

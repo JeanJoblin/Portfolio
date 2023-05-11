@@ -1,9 +1,11 @@
+import { useState } from 'react'
 import Image from 'next/image'
+
 
 export default function Header() {
   return (
       <>
-        <div className=' flex bg-orange-500 h-40 items-end justify-between' >
+        <div className=' flex bg-orange-500 h-40 items-end justify-between sticky top-0' >
           <Image
               className=" rounded-full top-8 absolute left-6 border-orange-500 border-8"
               src='/testpfp.jpg'
