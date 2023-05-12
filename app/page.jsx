@@ -33,7 +33,6 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Navbar />
       {displayProjects(projects)}
     </>
   )

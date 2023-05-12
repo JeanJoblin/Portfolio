@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import Image from 'next/image'
+import Hamburger from './hamburger'
 
 
 export default function Header() {
@@ -14,7 +14,7 @@ export default function Header() {
               height={150}
             />
           <h1 className=' font-bold text-6xl relative left-30 ml-48'>Nicholas Parish</h1>
-          <div className=' mr-1 '>Hamburger Menu</div>
+          <Hamburger />
         </div>
       </>
   )
