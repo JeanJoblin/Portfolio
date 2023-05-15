@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Header from './header'
+import Navbar from './navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -9,16 +10,12 @@ export const metadata = {
   description: 'My portfolio page',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function Layout({children}) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Header />
         <main>
-          <Header/>
           {children}
         </main>
       </body>

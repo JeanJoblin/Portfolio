@@ -1,7 +1,6 @@
+import Project from './proj'
 
-import Project from './proj.jsx'
-
-export default function Home() {
+export default function Projects() {
 
   const swn = {
     image: '/../public/testpfp.jpg',
@@ -20,9 +19,9 @@ export default function Home() {
 
   function displayProjects(projectArray) {
     return (
-      projectArray.map(proj => {
+      projectArray.map((proj, ind) => {
         return (
-          <Project proj={proj} />
+          <Project proj={proj} ind={ind} />
         )
       })
     )
