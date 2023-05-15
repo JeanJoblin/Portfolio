@@ -1,8 +1,6 @@
-import Header from './header'
-import Navbar from './navbar.jsx'
-import Project from './proj.jsx'
+import Project from './proj'
 
-export default function Home() {
+export default function Projects() {
 
   const swn = {
     image: '/../public/testpfp.jpg',
@@ -21,9 +19,9 @@ export default function Home() {
 
   function displayProjects(projectArray) {
     return (
-      projectArray.map(proj => {
+      projectArray.map((proj, ind) => {
         return (
-          <Project proj={proj} />
+          <Project proj={proj} ind={ind} />
         )
       })
     )
@@ -32,7 +30,6 @@ export default function Home() {
   const projects = [swn, mrnh];
   return (
     <>
-      <Header />
       {displayProjects(projects)}
     </>
   )

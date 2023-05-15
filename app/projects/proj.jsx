@@ -1,9 +1,9 @@
 import Image from 'next/image'
 
-export default function Proj( { proj } ) {
+export default function Proj( { proj }, ind ) {
   const {image, title, brief, siteLink, gitLink} = proj;
   return (
-      <div className=' w-11/12 sm:w-5/6 mx-auto bg-gray-900 mt-8 p-4 rounded-[66px]'>
+      <div className=' w-11/12 sm:w-5/6 mx-auto bg-gray-900 mt-8 p-4 rounded-[66px]' key={ind}>
         <Image
           src={image}
           alt={`example of ${title}`}

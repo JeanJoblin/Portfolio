@@ -1,18 +1,19 @@
 
 const navItems = [
-  {title: 'Projects',},
-  {title: 'Aboot',},
-  {title: 'Contact',}
+  {title: 'Projects', href:'/projects'},
+  {title: 'Aboot', href:'/about'},
+  {title: 'Contact', href:'/contact'}
 ]
 
 function displayNavItems() {
   return (
-    navItems.map(item => {
+    navItems.map((item, ind) => {
       return (
         <>
           <a 
             href={item.href}
             className={` ml-2 h-20 block pt-1 hover:cursor-pointer `} 
+            key={ind}
           >
             {item.title}
           </a>

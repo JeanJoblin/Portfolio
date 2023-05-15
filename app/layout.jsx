@@ -10,14 +10,11 @@ export const metadata = {
   description: 'My portfolio page',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function Layout({children}) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Header />
         <main>
           {children}
         </main>
