@@ -7,7 +7,7 @@ export default function Header() {
       <>
         <div className=' flex bg-orange-500 h-40 items-end justify-between sticky top-0' >
           <Image
-              className=" rounded-full top-8 absolute left-6 border-orange-500 border-8"
+              className=" rounded-full top-8 absolute left-6 border-orange-500 border-8 "
               src='/testpfp.jpg'
               alt="a picture of me"
               width={150}

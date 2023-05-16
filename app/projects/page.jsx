@@ -1,18 +1,20 @@
 import Project from './proj'
+import SDsvg from '../../public/SD.svg'
+import RedPurp from '../../public/Snoo_dark.svg'
 
 export default function Projects() {
 
-  const swn = {
-    image: '/../public/testpfp.jpg',
+  const spaceDock = {
+    image: SDsvg,
     title: 'Space Dock',
     brief: 'A customisable ship generator for the table top role playing game Stars Without Number',
     siteLink: 'https://spacedock.netlify.app/',
     gitLink: 'https://github.com/JeanJoblin/spacedock',
   }
 
-  const mrnh = {
-    image: '/../public/testpfp.jpg',
-    title: 'Museum of Reddit Natural History',
+  const redditPurp = {
+    image: RedPurp,
+    title: 'Reddit Purple',
     brief: 'Easily explore posts linked in Reddit comments',
     gitLink: 'https://github.com/ShoshBeer/museum-of-reddit-natural-history',
   }
@@ -27,7 +29,7 @@ export default function Projects() {
     )
   }
 
-  const projects = [swn, mrnh];
+  const projects = [spaceDock, redditPurp];
   return (
     <>
       {displayProjects(projects)}
