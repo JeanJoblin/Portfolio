@@ -9,7 +9,7 @@ export default function Proj( { proj }, ind ) {
           alt={`example of ${title}`}
           width={100}
           height={100}
-          className=' rounded-full float-left w-100 '
+          className=' rounded-full float-left w-100 h-[100px]'
         />  
         <h2 className='text-center mr-[100px] '>{title}</h2>
         <p className='text-center mr-[100px]'>{brief}</p>
