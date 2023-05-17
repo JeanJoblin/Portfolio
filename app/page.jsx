@@ -1,6 +1,6 @@
 import Project from './proj'
-import SDsvg from '../../public/SD.svg'
-import RedPurp from '../../public/Snoo_dark.svg'
+import SDsvg from '/public/SD.svg'
+import RedPurp from '/public/Snoo_dark.svg'
 
 export default function Projects() {
 

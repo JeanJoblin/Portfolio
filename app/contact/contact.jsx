@@ -9,7 +9,7 @@ export default function Contact( { con }, ind ) {
           alt={`logo for ${title}`}
           width={100}
           height={100}
-          className=' float-left w-[100px]'
+          className=' float-left sm:w-[100px] w-[50px]'
         />  
         <h2 className='text-center mr-[100px] font-semibold text-lg'>{title}</h2>
         {brief && <p className="text-center mr-[100px]">{brief}</p>}
