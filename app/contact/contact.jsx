@@ -1,20 +1,24 @@
-import Image from 'next/image'
+'use client';
+import Image from 'next/image';
 
-export default function Contact( { con }, ind ) {
-  const {title, link, image, verb, brief} = con;
+export default function Contact( { con }, ind  ) {
+  const {title, link, image, verb, mini} = con;
+  console.log('ind', ind);
   return (
-      <div className=' w-11/12 sm:w-5/6 mx-auto bg-gray-900 mt-8 p-4 rounded-[66px]' key={ind}>
-        <Image
-          src={image}
-          alt={`logo for ${title}`}
-          width={100}
-          height={100}
-          className=' float-left sm:w-[100px] w-[50px]'
-        />  
-        <h2 className='text-center mr-[100px] font-semibold text-lg'>{title}</h2>
-        {brief && <p className="text-center mr-[100px]">{brief}</p>}
-        <div className="justify-evenly w-full flex mr-[100px]">
-          {verb && link && <a className="bg-orange-500 px-2 py-1 rounded-lg inline-block" href={link} target="_blank">{verb}</a>}  
+      <div className={`w-11/12 mx-auto bg-gray-900 mt-8 p-4 rounded-[66px] flex `} key={ind}>
+        <div className='w-[25px] sm:w-[50px] relative flex flex-shrink-0'>
+          <Image
+            src={image}
+            alt={`logo for ${title}`}
+            className=' sm:w-[100px] w-[50px] mt-auto mb-auto'
+          />
+        </div>
+        <div className=" flex-1 ">
+          <h2 className=' text-center font-semibold text-lg '>{title}</h2>
+          <div className=" justify-evenly w-full flex mr-[100px] ">
+            {verb && link && <a className={`bg-orange-500 px-2 py-1 rounded-lg hover:bg-orange-700 ${mini && 'hidden'} md:block`} href={link} target="_blank">{verb}</a>}
+            {mini && <a className={`bg-orange-500 px-2 py-1 rounded-lg hover:bg-orange-700 md:hidden block`} href={link}>{mini}</a>}
+          </div>
         </div>
       </div>
   )

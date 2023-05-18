@@ -1,20 +1,24 @@
-import Contact from './contact';
 import discordLogo from '../../public/discord-mark-white.svg'
 import Email from '../../public/email-mail-svgrepo-com.svg'
 import linkedIn from '../../public/LI-In-Bug.png'
 import Invertocat from '../../public/github-mark-white.svg'
+import dynamic from 'next/dynamic';
+
+const Contact = dynamic(() => import('./contact'), {ssr: false});
 
 const contactMethods = [
   {
     title: "Discord",
     link: "https://discordapp.com/users/184888225632878592",
     image: discordLogo,
-    verb: 'DM me on Discord'
+    verb: 'DM me'
   },
   {
-    title: 'E-mail',
+    title: 'Email',
     image: Email,
-    brief: 'E-mail me @ nicholaswparish@gmail.com'
+    verb: 'nicholaswparish@gmail.com',
+    link: 'mailto:nicholaswparish@gmail.com',
+    mini: '@gmail.com'
   },
   {
     title: 'LinkedIn',
@@ -33,7 +37,6 @@ const contactMethods = [
 function displayContacts(contactMethods) {
   return (
     contactMethods.map((con, ind) => {
-      console.log(con)
       return (
         <Contact con={con} ind={ind} />
       )
@@ -43,8 +46,8 @@ function displayContacts(contactMethods) {
 
 export default function ContactPage() {
   return(
-    <>
+    <div className=" grid-cols-2 grid">
       {displayContacts(contactMethods)}
-    </>
+    </div>
   )
 }
