@@ -46,8 +46,11 @@ function displayContacts(contactMethods) {
 
 export default function ContactPage() {
   return(
-    <div className=" grid-cols-2 grid">
-      {displayContacts(contactMethods)}
-    </div>
+    <>
+      <h2 className=" text-3xl font-bold text-slate-200 mt-4 text-center">Contact Me</h2>
+      <div className=" sm:grid-cols-2 sm:grid">
+        {displayContacts(contactMethods)}
+      </div>
+    </>
   )
 }
