@@ -1,7 +1,7 @@
 
 const navItems = [
-  {title: 'Projects', href:'/projects'},
-  {title: 'Aboot', href:'/about'},
+  {title: 'Projects', href:'/'},
+  {title: 'About', href:'/about'},
   {title: 'Contact', href:'/contact'}
 ]
 
@@ -12,7 +12,7 @@ function displayNavItems() {
         <>
           <a 
             href={item.href}
-            className={` ml-2 h-20 block pt-1 hover:cursor-pointer `} 
+            className={` pl-2 h-20 block pt-1 hover:cursor-pointer hover:bg-slate-200 hover:text-slate-900 transition-all`} 
             key={ind}
           >
             {item.title}
@@ -30,9 +30,17 @@ export default function Navbar({open}) {
     <div id="sidebar" 
     className={
       `fixed z-10 right-[-200px] h-full bg-black bg-opacity-70 flex-row backdrop-blur-sm border-orange-500 w-[200px] transition border-l-2
-      ${open && `translate-x-[-200px]`}
+      ${open && `translate-x-[-200px]`} 
     `}>
       {displayNavItems()}
+      
+      <a
+        href='../../public/NicholasWParishResumeMay2023'
+        download='Nicholas W Parish Resume'
+        target="_blank"
+        className="pl-2 h-20 block pt-1 hover:cursor-pointer hover:bg-slate-200 hover:text-slate-900 transition-all"
+        >Download my Resume</a>
+      <hr/>
     </div>
   )
 }
