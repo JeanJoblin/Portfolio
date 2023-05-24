@@ -71,7 +71,7 @@ export default function Projects() {
         </p>
       )
     },
-    techs: [ react, redux, bootstrap],
+    techs: [ react, redux, bootstrap ],
   }
 
   function displayProjects(projectArray) {
