@@ -33,6 +33,14 @@ export default function Navbar({open}) {
       ${open && `translate-x-[-200px]`} 
     `}>
       {displayNavItems()}
+      
+      <a
+        href='../../public/NicholasWParishResumeMay2023'
+        download='Nicholas W Parish Resume'
+        target="_blank"
+        className="pl-2 h-20 block pt-1 hover:cursor-pointer hover:bg-slate-200 hover:text-slate-900 transition-all"
+        >Download my Resume</a>
+      <hr/>
     </div>
   )
 }
