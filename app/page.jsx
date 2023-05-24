@@ -58,7 +58,7 @@ export default function Projects() {
     },
     siteLink: 'https://spacedock.netlify.app/',
     gitLink: 'https://github.com/JeanJoblin/spacedock',
-    techs: [node, react, redux, jest, css],
+    techs: [ react, redux, jest, css ],
   }
 
   const redditPurp = {
@@ -71,7 +71,7 @@ export default function Projects() {
         </p>
       )
     },
-    techs: [node, react, redux, bootstrap],
+    techs: [ react, redux, bootstrap],
   }
 
   function displayProjects(projectArray) {
