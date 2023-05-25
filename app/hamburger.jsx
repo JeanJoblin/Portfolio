@@ -12,7 +12,7 @@ export default function Hamburger() {
 
     return (
       <div>
-        <div className={`w-9 h-8 right-[5px] bottom-[5px] [transform:rotate(0deg)] [transition:_.5s_ease-in-out] relative cursor-pointer`}
+        <div className={`w-9 h-8 [scale:.75] sm:[scale:1] right-[5px] bottom-[5px] [transform:rotate(0deg)] [transition:_.5s_ease-in-out] relative cursor-pointer `}
           onClick={() => setOpen(!open)}>
           <span className={` block bg-slate-50 absolute h-[5px] w-full rounded-full opacity-100 left-0 top-0 transition-all [transition:_.25s_ease-in-out] ${open && 'top-3 [transform:rotate(135deg)]'}`}/>
 

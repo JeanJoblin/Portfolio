@@ -38,7 +38,7 @@ function displayContacts(contactMethods) {
   return (
     contactMethods.map((con, ind) => {
       return (
-        <Contact con={con} ind={ind} />
+        <Contact con={con} key={ con.title + ind } />
       )
     })
   )

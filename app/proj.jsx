@@ -16,9 +16,9 @@ export default function Proj( { proj }, ind ) {
 
         <p className='text-center font-semibold text-lg mt-3'>Technologies Used</p>
         <ul className='grid grid-cols-3 justify-items-center md:w-2/3 m-auto items-center'>
-          {techs.map(tech => {
+          {techs.map((tech, ind) => {
             return (
-              <li className="flex mt-1">
+              <li className="flex mt-1" key={ title + tech.title}>
                 <Image
                   src={tech.image}
                   alt={`${tech.title} logo`}

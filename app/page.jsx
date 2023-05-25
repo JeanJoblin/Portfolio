@@ -8,6 +8,7 @@ import nodejsLogo from '../public/nodejs02-svgrepo-com.svg'
 import cssLogo from '../public/css-3-svgrepo-com.svg'
 import reduxLogo from '../public/redux-svgrepo-com.svg'
 import bootstrapLogo from '../public/bootstrap-fill-svgrepo-com.svg'
+import npmLogo from '../public/npm-svgrepo-com.svg'
 
 export default function Projects() {
 
@@ -45,6 +46,11 @@ export default function Projects() {
     title: 'Bootstrap',
     image: bootstrapLogo,
   }
+  
+  const npm = {
+    title: 'NPM',
+    image: npmLogo,
+  }
 
   const spaceDock = {
     image: SDsvg,
@@ -52,13 +58,13 @@ export default function Projects() {
     brief: () => {
       return(
         <p>
-          A customisable ship generator for the table top role playing game <a href='https://www.drivethrurpg.com/product/226996/Stars-Without-Number-Revised-Edition' target='_blank' className='text-blue-200'>Stars Without Number.</a> The focus is on random generation within a certain set of parameters, with emphasis on rationally built ships coherent with a given theme. Players can also create bespoke ships, and are given a running tally of the cost, mass, and power usage of selected components.
+          A customisable ship generator for the table top role playing game <a href='https://www.drivethrurpg.com/product/230009/Stars-Without-Number-Revised-Edition-Free-Version' target='_blank' className='text-blue-200'>Stars Without Number.</a> The focus is on random generation within a certain set of parameters, with emphasis on rationally built ships coherent with a given theme. Players can also create bespoke ships, and are given a running tally of the cost, mass, and power usage of selected components.
         </p>
       )
     },
     siteLink: 'https://spacedock.netlify.app/',
     gitLink: 'https://github.com/JeanJoblin/spacedock',
-    techs: [ react, redux, jest, css ],
+    techs: [ react, redux, jest, css, npm ],
   }
 
   const redditPurp = {
@@ -67,7 +73,7 @@ export default function Projects() {
     brief: () => {
       return(
         <p>
-          Easily explore posts linked in Reddit comments! Posts frequently appear on <a href='https://www.reddit.com/r/AskReddit/' target='_blank' className='text-blue-200'>r/askreddit</a> asking about the best posts in Reddit's history. Trying to find all the comments with links to these posts results in scrolling back and forth and opening a bunch of new tabs. This utility uses Reddit's unofficial API to scrub the page for you, and display each post found on a single page.
+          Easily explore posts linked in Reddit comments! Posts frequently appear on <a href='https://www.reddit.com/r/AskReddit/' target='_blank' className='text-blue-200'>r/askreddit</a> asking about the best posts in Reddit&apos;s history. Trying to find all the comments with links to these posts results in scrolling back and forth and opening a bunch of new tabs. This utility uses Reddit&apos;s unofficial API to scrub the page for you, and display each post found on a single page.
         </p>
       )
     },
@@ -78,7 +84,7 @@ export default function Projects() {
     return (
       projectArray.map((proj, ind) => {
         return (
-          <Project proj={proj} ind={ind} />
+          <Project proj={proj} key={ proj.title + ind} />
         )
       })
     )
