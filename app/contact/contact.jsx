@@ -10,7 +10,7 @@ export default function Contact( { con }, ind  ) {
           <Image
             src={image}
             alt={`logo for ${title}`}
-            className=' sm:w-[100px] w-[50px] mt-auto mb-auto'
+            className=' sm:w-[100px] w-[50px] mt-auto mb-auto z-0'
           />
         </div>
         <div className=" flex-1 ">

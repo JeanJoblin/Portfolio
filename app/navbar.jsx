@@ -1,21 +1,24 @@
 
-const navItems = [
+export const navItems = [
   {title: 'Projects', href:'/'},
   {title: 'About', href:'/about'},
-  {title: 'Contact', href:'/contact'}
+  {title: 'Contact', href:'/contact'},
+  {title: 'Download Resume', href: '../../public/NicholasWParishResumeMay2023', download: 'Nicholas Parish Resume', target:'_blank'}
 ]
 
 function displayNavItems() {
   return (
-    navItems.map((item, ind) => {
+    navItems.map(({title, href, download, target}) => {
       return (
         <>
           <a 
-            href={item.href}
+            href={href}
             className={` pl-2 h-20 block pt-1 hover:cursor-pointer hover:bg-slate-200 hover:text-slate-900 transition-all`} 
-            key={ind}
+            key={title}
+            download={ download ? download : false }
+            target={ target ? target : false }
           >
-            {item.title}
+            {title}
           </a>
           <hr/>
         </>
@@ -33,14 +36,6 @@ export default function Navbar({open}) {
       ${open && `translate-x-[-200px]`} 
     `}>
       {displayNavItems()}
-      
-      <a
-        href='../../public/NicholasWParishResumeMay2023'
-        download='Nicholas W Parish Resume'
-        target="_blank"
-        className="pl-2 h-20 block pt-1 hover:cursor-pointer hover:bg-slate-200 hover:text-slate-900 transition-all"
-        >Download my Resume</a>
-      <hr/>
     </div>
   )
 }
