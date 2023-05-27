@@ -38,7 +38,7 @@ function displayContacts(contactMethods) {
   return (
     contactMethods.map((con, ind) => {
       return (
-        <Contact con={con} key={ con.title + ind } />
+        <Contact con={con} key={ con.title + ind }/>
       )
     })
   )
@@ -47,8 +47,8 @@ function displayContacts(contactMethods) {
 export default function ContactPage() {
   return(
     <>
-      <h2 className=" text-3xl font-bold text-slate-200 mt-4 text-center">Contact Me</h2>
-      <div className=" sm:grid-cols-2 sm:grid">
+      <h2 className=" text-3xl font-bold text-slate-200 mt-4 text-center ">Contact Me</h2>
+      <div className=" sm:grid-cols-2 sm:grid text-slate-50">
         {displayContacts(contactMethods)}
       </div>
     </>
