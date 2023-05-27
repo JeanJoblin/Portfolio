@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Proj( { proj }, ind ) {
   const {image, title, brief, siteLink, gitLink, techs} = proj;
   return (
-      <div className=' w-11/12 sm:w-5/6 mx-auto bg-gray-900 mt-8 p-4 rounded-[66px]' key={ind}>
+      <div className=' w-11/12 sm:w-5/6 mx-auto bg-gray-900 mt-8 py-4 px-5 rounded-[66px]' key={ind}>
         <Image
           src={image}
           alt={`example of ${title}`}
@@ -16,9 +16,9 @@ export default function Proj( { proj }, ind ) {
 
         <p className='text-center font-semibold text-lg mt-3'>Technologies Used</p>
         <ul className='grid grid-cols-3 justify-items-center md:w-2/3 m-auto items-center'>
-          {techs.map(tech => {
+          {techs.map((tech, ind) => {
             return (
-              <li className="flex mt-1">
+              <li className="flex mt-1" key={ title + tech.title}>
                 <Image
                   src={tech.image}
                   alt={`${tech.title} logo`}

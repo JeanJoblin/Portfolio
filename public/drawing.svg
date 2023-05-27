@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6.0362401mm"
+   height="4.8211021mm"
+   viewBox="0 0 3.0181201 2.4105511"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="50.914029"
+     inkscape:cx="6.3145661"
+     inkscape:cy="7.8072784"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="1791"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="path1343" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="fill_between_many"
+       method="originald"
+       linkedpaths="#text1341,0,1|#text1287,0,1"
+       id="path-effect1369"
+       is_visible="true"
+       lpeversion="0"
+       join="true"
+       close="true"
+       autoreverse="true" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-49.499184,-116.62472)">
+    <path
+       inkscape:original-d="M 0,0"
+       inkscape:path-effect="#path-effect1369"
+       d="M 0,0"
+       id="path1371"
+       class="UnoptimicedTransforms"
+       style="stroke:#000000;stroke-opacity:1" />
+    <g
+       aria-label="N"
+       id="text1287"
+       style="font-size:3.175px;opacity:0.921162;stroke:#ffffff;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       transform="translate(1.3245489,0.78572693)"
+       class="UnoptimicedTransforms">
+      <g
+         id="path1352" />
+    </g>
+    <g
+       aria-label="P"
+       id="text1341"
+       style="font-size:3.175px;opacity:0.921162;stroke:#ffffff;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       transform="matrix(0.95870156,0,0,1,2.8602724,0.13614998)"
+       class="UnoptimicedTransforms">
+      <g
+         id="path1343">
+        <path
+           id="path1359"
+           style="color:#000000;font-size:3.175px;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.102131;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke markers fill"
+           d="m 48.699064,116.53967 v 2.30839 h 0.299159 v -2.06499 l 1.141656,2.06499 h 0.09487 0.301314 0.0059 v -0.86041 h 0.306706 c 0.165364,0 0.302756,-0.0196 0.411276,-0.0589 0.10852,-0.0403 0.202329,-0.10026 0.28191,-0.17984 0.06408,-0.0641 0.113631,-0.13952 0.148771,-0.22634 0.03617,-0.0879 0.05444,-0.18293 0.05444,-0.28525 0,-0.13436 -0.0242,-0.24547 -0.07277,-0.33332 -0.04754,-0.0878 -0.115362,-0.16121 -0.203212,-0.22014 -0.07441,-0.0496 -0.159919,-0.0858 -0.256037,-0.10852 -0.09612,-0.0238 -0.213491,-0.0357 -0.351983,-0.0357 h -0.325033 -0.299158 -0.0022 v 1.88103 l -1.039242,-1.88103 z m 1.842927,0.26355 h 0.30401 c 0.09715,0 0.176821,0.007 0.239866,0.0217 0.06408,0.0134 0.121266,0.0361 0.170872,0.0682 0.05684,0.0372 0.0993,0.0852 0.12721,0.14418 0.02791,0.0589 0.04151,0.12816 0.04151,0.20774 0,0.0682 -0.01005,0.12968 -0.03073,0.18448 -0.01964,0.0548 -0.05384,0.10698 -0.102415,0.15658 -0.04858,0.0486 -0.111683,0.0842 -0.189197,0.10697 -0.07751,0.0217 -0.178371,0.0326 -0.302394,0.0326 h -0.258732 z" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -5,8 +5,8 @@ export default function Contact( { con }, ind  ) {
   const {title, link, image, verb, mini} = con;
   console.log('ind', ind);
   return (
-      <div className={`w-11/12 mx-auto bg-gray-900 mt-8 p-4 rounded-[66px] flex `} key={ind}>
-        <div className='w-[25px] sm:w-[50px] relative flex flex-shrink-0'>
+      <div className={`w-11/12 mx-auto bg-gray-900 mt-8 p-4 rounded-[66px] flex `} key={title + ind}>
+        <div className='w-[25px] sm:w-[50px] relative flex flex-shrink-0 '>
           <Image
             src={image}
             alt={`logo for ${title}`}
