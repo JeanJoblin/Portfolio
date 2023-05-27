@@ -13,7 +13,7 @@ function displayNavItems() {
         <>
           <a 
             href={href}
-            className={`pl-2 h-20 block pt-1 hover:cursor-pointer hover:bg-slate-200 hover:text-slate-900 transition-all`} 
+            className={`pl-2 h-20 block pt-1 text-slate-200 hover:cursor-pointer hover:bg-slate-200 hover:text-slate-900 transition-all`} 
             key={'side' + title}
             download={ download ? download : false }
             target={ target ? target : false }

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Hamburger from './hamburger'
-import Profile from '../public/Profile FujiQ Higland.svg'
+import Profile from '../public/Profile FujiQ Higland.png'
 import HeaderNav from './headernav.jsx'
 
 
