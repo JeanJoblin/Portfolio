@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7.9304919mm"
+   height="7.9363775mm"
+   viewBox="0 0 3.965246 3.9681888"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="NPO.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="18.000828"
+     inkscape:cx="12.277213"
+     inkscape:cy="17.526972"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="1791"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="path1343" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="fill_between_many"
+       method="originald"
+       linkedpaths="#text1341,0,1|#text1287,0,1"
+       id="path-effect1369"
+       is_visible="true"
+       lpeversion="0"
+       join="true"
+       close="true"
+       autoreverse="true" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-47.669233,-115.78691)">
+    <path
+       inkscape:original-d="M 0,0"
+       inkscape:path-effect="#path-effect1369"
+       d="M 0,0"
+       id="path1371"
+       class="UnoptimicedTransforms"
+       style="stroke:#000000;stroke-opacity:1" />
+    <g
+       aria-label="N"
+       id="text1287"
+       style="font-size:3.175px;opacity:0.921162;stroke:#ffffff;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       transform="translate(1.3245489,0.78572693)"
+       class="UnoptimicedTransforms">
+      <g
+         id="path1352" />
+    </g>
+    <g
+       aria-label="P"
+       id="text1341"
+       style="font-size:3.175px;opacity:0.921162;stroke:#ffffff;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       transform="matrix(0.95870156,0,0,1,2.8602724,0.13614998)"
+       class="UnoptimicedTransforms">
+      <g
+         inkscape:groupmode="layer"
+         id="layer2"
+         inkscape:label="Layer 2">
+        <ellipse
+           style="font-size:3.175px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0712571;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+           id="path292"
+           cx="48.807247"
+           cy="117.63485"
+           rx="2.0324008"
+           ry="1.9484658" />
+      </g>
+      <g
+         id="path1343"
+         style="stroke:none;stroke-width:0.100089;stroke-dasharray:none"
+         transform="translate(-0.05106597,-0.05106998)">
+        <path
+           id="path1359"
+           style="color:#000000;font-size:3.175px;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.109288;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           d="m 47.457207,116.32655 v 2.69789 h 0.305182 v -2.41342 l 1.164641,2.41342 h 0.09678 0.307381 0.0061 v -1.00558 h 0.312881 c 0.168693,0 0.308852,-0.0229 0.419556,-0.0688 0.110705,-0.0471 0.206403,-0.11718 0.287586,-0.21019 0.06537,-0.0749 0.115919,-0.16306 0.151767,-0.26452 0.0369,-0.10273 0.05554,-0.2138 0.05554,-0.33339 0,-0.15703 -0.02469,-0.28688 -0.07424,-0.38956 -0.0485,-0.10262 -0.117684,-0.18841 -0.207303,-0.25729 -0.07591,-0.058 -0.163138,-0.10031 -0.261192,-0.12682 -0.09805,-0.0278 -0.217789,-0.0417 -0.359069,-0.0417 h -0.331577 -0.305181 -0.0023 v 2.19842 l -1.060165,-2.19842 z m 1.880031,0.30802 h 0.310131 c 0.09911,0 0.180381,0.008 0.244695,0.0254 0.06537,0.0157 0.123707,0.0422 0.174312,0.0797 0.05798,0.0434 0.101299,0.0996 0.129771,0.1685 0.02847,0.0688 0.04235,0.14979 0.04235,0.24279 0,0.0797 -0.01028,0.15157 -0.03135,0.21561 -0.02003,0.064 -0.05492,0.12504 -0.104477,0.183 -0.04955,0.0568 -0.113932,0.0984 -0.193007,0.12503 -0.07906,0.0254 -0.181961,0.0381 -0.308482,0.0381 h -0.26394 z" />
+      </g>
+    </g>
+  </g>
+</svg>

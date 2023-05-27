@@ -24,8 +24,8 @@ return (
   <div className="grid sm:grid-cols-2 justify-items-center">
     {abouts.map((about, ind) => {
       return (
-        <div className="bg-gray-900 mt-8 p-4 rounded-[66px] w-11/12 pb-8" key={about.title + ind}>
-          <h3 className='font-semibold text-lg text-center'>{about.title}</h3>
+        <div className="bg-gray-900 mt-8 p-y4 px-6 rounded-[66px] w-11/12 pb-8" key={about.title + ind}>
+          <h3 className='font-semibold text-lg pt-2 text-center'>{about.title}</h3>
           {about.brief()}
         </div>
       )
