@@ -13,7 +13,7 @@ export const metadata = {
 export default function Layout({children}) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className}` + ' bg-none bg-black'}>
         <Header />
         <main>
           {children}
