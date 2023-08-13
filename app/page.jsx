@@ -70,6 +70,7 @@ export default function Projects() {
   const redditPurp = {
     image: RedPurp,
     title: 'Reddit Purple',
+    gitLink: 'https://github.com/ShoshBeer/reddit-purple',
     brief: () => {
       return(
         <p>

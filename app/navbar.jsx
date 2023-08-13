@@ -3,7 +3,7 @@ export const navItems = [
   {title: 'Projects', href:'/'},
   {title: 'About', href:'/about'},
   {title: 'Contact', href:'/contact'},
-  {title: 'Download Resume', href: '/Resume_Nicholas_Parish.pdf', download: 'Nicholas_Parish_Resume', target: '_blank', noref: true}
+  {title: 'Download Resume', href: '/Nicholas Parish Resume.pdf', download: 'Nicholas Parish Resume', target: '_blank', noref: true}
 ]
 
 function displayNavItems() {
